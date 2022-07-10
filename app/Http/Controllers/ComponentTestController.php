@@ -6,5 +6,7 @@ use Illuminate\Http\Request;
 
 class ComponentTestController extends Controller
 {
-    //
+    public function showComponent1(){
+        return view('tests.component-test1');
+    }
 }
